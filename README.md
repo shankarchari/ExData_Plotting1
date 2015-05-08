@@ -1,4 +1,20 @@
-## How to reproduce the results(tested in Mac OS)
+## Introduction
+This codebase have the plot scripts and png images. There are totally 5 R scripts,
+
+#### load.R - Load expects the data set from <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
+Learning Repository</a> for <a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">Power Consumption</a>
+to be in the current directory. I loads, mutates and tidy the data and caches it then serves via a function pointer.
+Cached data is reused across all plot scripts.
+
+#### plot1.R - Global Active Power vs Frequency at which data collected
+
+#### plot2.R - DateTime vs Global Active Power (kilowatts)
+
+#### plot3.R - DateTime vs Energy sub meterings for 3 sub meters
+
+#### plot4.R - 4 plots in a 2x2 grid.
+
+### How to reproduce the results(tested in Mac OS)
 
 ```
 > wget https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
@@ -13,7 +29,7 @@
 
 
 
-## Introduction
+## Background
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
