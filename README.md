@@ -1,3 +1,18 @@
+## How to reproduce the results(tested in Mac OS)
+
+```
+> wget https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+> unzip exdata%2Fdata%2Fhousehold_power_consumption.zip
+> R
+> source("load.R")
+> source("plot1.R")
+> source("plot2.R")
+> source("plot3.R")
+> source("plot4.R")
+```
+
+
+
 ## Introduction
 
 This assignment uses data from
